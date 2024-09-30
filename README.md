@@ -18,7 +18,7 @@ The primary objectives of this project are:
 
 
 ## Setup Instructions
-To execute the notebook, follow these steps:
+To execute the website, follow these steps:
 1) Set up folder path in command prompt
    - `cd` to LARACONCERTS
 2) Run Migrations:
