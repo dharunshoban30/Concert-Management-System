@@ -1,13 +1,12 @@
 # 🎵 Concert Management System - LaraConcerts
 
 ## Overview
-This is a comprehensive concert event management system designed to simplify the organisation and participation of concert events. The system caters to two distinct user groups: administrators (admins) and end users, each equipped with tailored functionalities to enhance their experience and interaction with the platform.
+This is a comprehensive concert event management system called 'LaraConcerts' designed to simplify the organisation and participation of concert events. The system was created using the **Laravel framework**, which includes PHP, HTML, JavaScript and CSS. The system caters to two distinct user groups: administrators (admins) and end users, each equipped with tailored functionalities to enhance their experience and interaction with the platform.
 
 For end users, the system provides an extensive set of features including the ability to create user accounts, view upcoming concert events, edit personal account information, delete their accounts, book tickets for events, and review their ticket bookings. 
 On the administrative side, the system provides tools for creating and managing concert events which include updates and event deletion, viewing event attendees, and editing admin account details.
 
-A key feature of the system is the integration of the Stripe Payment API, enabling secure and convenient payment processing for ticket bookings. Additionally, the system is designed to be mobile responsive so that
-users are able to access the system on devices other than their computer.
+A key feature of the system is the integration of the **Stripe Payment API**, enabling secure and convenient payment processing for ticket bookings. Additionally, the system is designed to be mobile responsive so that users are able to access the system on devices other than their computer.
 
 
 ## Objectives
@@ -20,8 +19,8 @@ The primary objectives of this project are:
 
 ## Setup Instructions
 To execute the notebook, follow these steps:
-1) Firstly `cd` to the folder
-    
+1) Set up folder path in command prompt
+   - `cd` to LARACONCERTS
 2) Run Migrations:
    - Execute 'php artisan migrate' to create  database tables.
 3) Seed Database:
